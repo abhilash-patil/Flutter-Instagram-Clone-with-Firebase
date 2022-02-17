@@ -43,5 +43,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSPhotoLibrsryUsageDescription</key>
+	<string>Share photos and add profile images</string>
 </dict>
 </plist>
