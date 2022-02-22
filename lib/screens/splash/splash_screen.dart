@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:instagram_clone/blocs/blocs.dart';
+
 import 'package:instagram_clone/screens/screens.dart';
 
 class SplashScreen extends StatelessWidget {
