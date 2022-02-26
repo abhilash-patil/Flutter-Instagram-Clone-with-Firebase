@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_instagram/screens/screens.dart';
+import 'package:instagram_clone/screens/screens.dart';
 
 class CustomRouter {
   static Route onGenerateRoute(RouteSettings settings) {
@@ -14,24 +14,6 @@ class CustomRouter {
         return SplashScreen.route();
       case LoginScreen.routeName:
         return LoginScreen.route();
-      case SignupScreen.routeName:
-        return SignupScreen.route();
-      case NavScreen.routeName:
-        return NavScreen.route();
-      default:
-        return _errorRoute();
-    }
-  }
-
-  static Route onGenerateNestedRoute(RouteSettings settings) {
-    print('Nested Route: ${settings.name}');
-    switch (settings.name) {
-      case ProfileScreen.routeName:
-        return ProfileScreen.route(args: settings.arguments);
-      case EditProfileScreen.routeName:
-        return EditProfileScreen.route(args: settings.arguments);
-      case CommentsScreen.routeName:
-        return CommentsScreen.route(args: settings.arguments);
       default:
         return _errorRoute();
     }
