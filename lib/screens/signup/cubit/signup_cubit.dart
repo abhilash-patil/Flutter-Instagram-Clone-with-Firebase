@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter_instagram/models/models.dart';
-import 'package:flutter_instagram/repositories/repositories.dart';
+import 'package:instagram_clone/models/models.dart';
+import 'package:instagram_clone/repositories/repositories.dart';
 import 'package:meta/meta.dart';
 
 part 'signup_state.dart';
