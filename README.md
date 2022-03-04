@@ -1,2 +1,2 @@
-# Instagram Clone with backend
+# Instagram Clone with Firebase
 ### Fully Functional Instagram clone built with Flutter and Firebase as its back-end with BLoC state management.
