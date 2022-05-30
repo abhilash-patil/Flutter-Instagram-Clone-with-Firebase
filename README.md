@@ -1,5 +1,5 @@
 # Instagram Clone with Firebase
-Instagram clone built with Flutter and Firebase as its back-end with BLoC state management.
+Instagram clone built with Flutter and Firebase as its back-end.
 ### How to Run:
 To run the project, first run command ` flutter clean ` and then ` flutter pub get ` to avoid errors.\
 Then run the project using ` flutter run ` or build app using ` flutter build apk ` command.
